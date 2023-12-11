@@ -90,8 +90,8 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1>Meal Finder</h1>
-        <button onClick={testClick}>test</button>
+        <h1>Food Store</h1>
+        {/* <button onClick={testClick}>test</button> */}
         <div class="flex">
         <div id="result-heading">{search}</div>
           <input
